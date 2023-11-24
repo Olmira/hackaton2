@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import warnings
-warnings.filterwarnings("ignore")
+
 st.title('Ceci est ma page du projet')
 
 pt = pd.read_csv('pt.csv', sep=',', index_col = 0)
